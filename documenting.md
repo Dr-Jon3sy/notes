@@ -48,4 +48,8 @@ There are a few ways to install Git on Windows - the laziest is to just use WSL 
 
 If you want it on your Windows machine [github has a good guide](https://github.com/git-guides/install-git) as does [The Official Git Book](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)...which you should read once a year, just on general principle. 
 
-The important thing to do is SET UP YOUR GIT TO USE SSH. 
+The important thing to do is SET UP YOUR GIT TO USE SSH. There are a lot of reasons for this - security, etc, but the most important one is that you don't have to keep typing in your username and password, making it more likely for you to, you know, actually use git. 
+
+### System Internals
+
+Published by Russinovich, a collection of tools that, as it says on the tin, provide insight into the Internals of the windows operating system. Became famous for process monitor and process explorer, but the entirity of the suite is really valuable. Disk2vhd converts your OS in to a bootable VM image, which is nice. 
