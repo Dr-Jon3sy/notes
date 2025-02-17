@@ -1,5 +1,9 @@
 ### Project Set up
 
+#### Why 
+
+Using this as a space to collect my thoughts on setting up machines for research and development. There's a lot of little things to remember, especially when talking to someone new about all this. 
+
 #### Virtualization
 
 On Windows x64, the only real answer is VMWare. I'm sorry VirtualBox, I love you, my early career was using you with all sorts of ~~messed up~~ quirky Vagrantfiles, but in terms of stability and features (specifically scripting virtual network devices and routing tables) nothing beats VMWare...apart from Broadcom. 
@@ -43,3 +47,5 @@ Set up a github account. Yes they suck. Yes it's necessary. This isn't college, 
 There are a few ways to install Git on Windows - the laziest is to just use WSL to handle it for you. `sudo apt install git` and bob's your uncle. 
 
 If you want it on your Windows machine [github has a good guide](https://github.com/git-guides/install-git) as does [The Official Git Book](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)...which you should read once a year, just on general principle. 
+
+The important thing to do is SET UP YOUR GIT TO USE SSH. 
