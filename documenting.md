@@ -70,3 +70,19 @@ start explorer.exe
 
 :: Empty Comment (Prevents you from having to press "enter" to execute the line to restart explorer.exe)
 ```
+
+### VMWare fuckery
+
+so, turns out that broadcom fucked up the update servers for VMWare tools...not that that's critical for anyone or anything. Workaround is pulling the install iso from broadcom direct and doing it manually but god, it's worse than linux
+
+### UCRTBASED.DLL 
+
+Right I'm a moron - got to statically link our shit
+
+```
+#pragma comment(linker, "/DEFAULTLIB:libucrt.lib")
+#pragma comment(linker, "/DEFAULTLIB:libvcruntime.lib")
+```
+
+and adjust project properties to /MT for the runtime libs
+
